@@ -1,0 +1,287 @@
+/* Reset default margin and padding */
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: inherit;
+    color: #8f8f8f;
+  }
+  
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+  
+  /* Containers */
+  
+.container-fluid{
+    padding: 7% 12%;
+}
+
+.container-fluid-news{
+  padding: 3% 6%;
+}
+
+.container-fluid-event{
+  padding: 5% 10%;
+}
+  
+  /* Sections */
+  
+.colored-section {
+    background-color: #8ee4af;
+    color: #edf5e1;
+}
+
+.colored-section-news{
+  background-color: #8ee4af;
+  padding: 1%;
+}
+
+.colored-section-jobs{
+  background-color: #edf5e1;
+  padding: 2%;
+}
+
+
+.white-section {
+    background-color: #fff;
+}
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+  
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+  
+.nav-item {
+    padding: 0 14px;
+    color: #05386b;
+}
+  
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: #05386b;
+}
+
+.custom-text-color {
+  color: #05386b;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #379683;
+    color: #fff;
+    text-align: left;
+  }
+  
+#title .container-fluid {
+    padding: 3% 8% 7%;
+}
+
+/* Blogs Section */
+
+#blogs {
+  padding: 50px 20px;
+}
+
+.blog-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.blogs-column {
+  padding: 3% 2%;
+}
+
+.custom-button {
+  background-color: #379683;
+  color: #edf5e1;
+}
+
+
+/* News Section */
+
+#news {
+  background-color: #8ee4af;
+}
+
+.news-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.news-heading {
+color: #05386b;
+}
+
+.custom-size {
+  height: 360px;
+  width: 650px;
+  position: relative;
+  border-radius: 2%;
+
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  /* moz-transition: all .4s ease-in-out; */
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #05386b, #379863, #5cdb95, #8eefaf);
+}  
+/* Events Section */
+
+#events {
+  padding: 70px 1px;
+    position: relative;
+}
+  
+.event-title {
+    font-size: 1.5rem;
+}
+  
+.event-box {
+    padding: 2%;
+    background-color: #fff;
+}
+
+.event-box:hover svg {
+  fill: #ff4c68; /* Change the fill color when hovering */
+}
+
+.event-box:hover h3 {
+  color: #05386b; /* Change the text color when hovering */
+}
+
+
+.icon {
+  color: #379683;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #05386b;
+}
+
+ /*Jobs Section*/ 
+ #jobss {
+  padding: 50px 20px;
+}
+
+.job-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.jobs-column {
+  padding: 3% 2%;
+}
+
+
+body{margin-top:20px;}
+  .shadow {
+      box-shadow: 0 x 3px rgb(53 64 78 / 20%) !important;
+}
+.rounded {
+      border-radius: 8px !important;
+}
+.bg-light {
+      background-color: #f7f8fa !important;}
+.bg-primary, .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .badge-primary, .nav-pills .nav-link.active, .pagination .active a, .custom-control-input:checked ~ .custom-control-label:before, #preloader #status .spinner > div, .social-icon li a:hover, .back-to-top:hover, .back-to-home a, ::selection, #topnav .navbar-toggle.open span:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots.clickable .owl-dot:hover span, .watch-video a .play-icon-circle, .sidebar .widget .tagcloud > a:hover, .flatpickr-day.selected, .flatpickr-day.selected:hover, .tns-nav button.tns-nav-active, .form-check-input.form-check-input:checked {
+      background-color: #5cdb95 !important;
+ }
+  
+.badge {
+      padding: 5px 10px;
+      border-radius: 3px;
+      letter-spacing: 0.5px;
+      font-size: 12px;
+}
+  
+.btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active {
+      box-shadow: 0 3px 7px rgb(109 199 122 / 50%) !important;
+}
+.btn-primary, .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .bg-soft-primary .border, .alert-primary, .alert-outline-primary, .badge-outline-primary, .nav-pills .nav-link.active, .pagination .active a, .form-group .form-control:focus, .form-group .form-control.active, .custom-control-input:checked ~ .custom-control-label:before, .custom-control-input:focus ~ .custom-control-label::before, .form-control:focus, .social-icon li a:hover, #topnav .has-submenu.active.active .menu-arrow, #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow, #topnav .navigation-menu > li:hover > .menu-arrow, .flatpickr-day.selected, .flatpickr-day.selected:hover, .form-check-input:focus, .form-check-input.form-check-input:checked, .container-filter li.active, .container-filter li:hover {
+      border-color: #5cdb95 !important;
+}
+.bg-primary, .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .badge-primary, .nav-pills .nav-link.active, .pagination .active a, .custom-control-input:checked ~ .custom-control-label:before, #preloader #status .spinner > div, .social-icon li a:hover, .back-to-top:hover, .back-to-home a, ::selection, #topnav .navbar-toggle.open span:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots.clickable .owl-dot:hover span, .watch-video a .play-icon-circle, .sidebar .widget .tagcloud > a:hover, .flatpickr-day.selected, .flatpickr-day.selected:hover, .tns-nav button.tns-nav-active, .form-check-input.form-check-input:checked {
+      background-color: #5cdb95 !important;
+}
+.btn {
+      padding: 8px 20px;
+      outline: none;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      transition: all 0.3s;
+      font-weight: 600;
+      border-radius: 5px;
+}
+.btn-primary {
+      background-color: #379683 !important;
+      border: 1px solid #5cdb95 !important;
+      color: #edf5e1 !important;
+      box-shadow: 0 3px 7px rgb(109 199 122 / 50%);
+}
+  
+a {
+  text-decoration:none;    
+}
+/* Footer Section */
+.container {
+  padding: 2%;
+  /* background-color: #379683; */
+  color: #05386b;
+}
+
+.social-icon {
+    margin: 20px 15px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+}
+  
+  
